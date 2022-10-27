@@ -1,0 +1,76 @@
+/* CSS RESET */
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+/* GENERICS */
+
+.container{
+    max-width: 1000px;
+    height: 900px;
+    margin: auto;
+    background-color: lightgrey;
+}
+
+h1{
+    color: magenta;
+    margin-bottom: 3rem;
+}
+
+h3{
+    color: white;
+    margin: 0;
+}
+
+h5{
+    color: white;
+    margin: 0;
+}
+
+.email{
+    color: cyan;
+}
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+
+
+/* HEADER */
+header{
+    text-align: center;
+    padding:2rem
+
+}
+
+
+/* CARD */
+.card{
+    width: calc(100%/3 - 3rem);
+    height: 80px;
+    background-color: black;
+    float: left;
+    margin: 0.5rem;
+
+}
+
+img{
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.information{
+    padding:15px;
+    
+}
+
+
+
